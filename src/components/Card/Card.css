@@ -1,0 +1,51 @@
+.scrollCard{
+    display: flex;
+    width: 449px;
+    padding: 22px 23px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    border: 1px solid rgba(250,250,250,0.40);
+    background: #2E2E2E;
+    border-radius: 13px;
+
+}
+
+.scrollCard {
+    width: 450px !important;
+    border: 1px solid rgba(250,250,250,0.40) !important;
+    background: #2E2E2E !important;
+    border-radius: 13px !important;
+    padding: 22px 23px !important;
+}
+
+
+@media (max-width: 768px){
+    .scrollCard {
+        /* width: 400px; */
+        padding: 12px 14px;
+        gap: 10px;
+    }
+    .CardInner{
+        width:370px;
+    }
+ 
+}
+@media (max-width: 768px){
+    .scrollCard {
+        width: 400px;
+    }
+    .CardInner{
+        width:370px;
+    }
+ 
+}
+@media (max-width: 640px){
+    .scrollCard {
+        width: 350px;
+    }
+    .CardInner{
+        width:300px;
+    }
+ 
+}

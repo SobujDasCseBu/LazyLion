@@ -1,0 +1,221 @@
+.mission_vision_wrap{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.mission_container{
+    display: flex;
+    flex-direction: column;
+    /* height: 100vh; */
+
+}
+.about_mission{
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.about_wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about_mission h3{
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 100%;
+    padding: 7rem 0;
+    text-align: center;
+
+}
+
+.rightSection .vission p,
+.rightSection .mission p  {
+    font-size: 1.5rem;
+    padding: 1.5rem 0;
+    
+ 
+font-weight: 300;
+}
+.rightSection{
+    padding-right: 2rem;
+    
+}
+.leftSection{
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+
+.leftSection img {
+    width: 100%;
+}
+
+.rightSection {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.rightSection .vission h3 ,
+.rightSection .mission h3 {
+    font-weight: 800;
+    font-size: 80px;
+}
+
+
+
+
+.leftSection img {
+    width: 100%;
+}
+
+.vission {
+    margin-bottom: 3rem;
+}
+.rightSection_wrap {
+    padding-left: 5rem;
+}
+
+@media (max-width:1200px){
+    .rightSection .vission h3, .rightSection .mission h3 {
+        font-size: 58px;
+    }
+
+    .rightSection .vission p, .rightSection .mission p {
+        font-size: 1.3rem;
+        padding: 1rem 0;
+        font-weight: 300;
+    }
+    .mission_vision_wrap {
+        
+        padding-top: 3rem;
+    }
+    .vission {
+        margin-bottom: 1rem;
+    }
+}
+@media (max-width:1024px){
+    .rightSection .vission h3, .rightSection .mission h3 {
+        font-size: 40px;
+    }
+
+    .rightSection .vission p, .rightSection .mission p {
+        font-size: 1.1rem;
+        padding: 1rem 0;
+        font-weight: 300;
+    }
+    .mission_vision_wrap {
+        
+        padding-top: 3rem;
+    }
+    .vission {
+        margin-bottom: 0rem;
+    }
+    .about_mission h3 br{
+        display: none;
+    }
+    .about_mission h3{
+        padding: 3rem 2rem;
+        padding-bottom: 0rem;
+    }
+
+    .rightSection_wrap {
+        padding: 0 1rem;
+    }
+    .rightSection_wrap {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+    .leftSection{
+        display: flex;
+        justify-content: center;
+    }
+    .leftSection img {
+        width: 75%;
+    }
+    .mission {
+        padding-left: 3rem;
+    }
+}
+
+@media (max-width:768px){
+    .mission_vision_wrap {
+    
+        grid-template-columns: 1fr;
+    }
+
+    .leftSection img {
+        width: 58%;
+    }
+    .leftSection {
+    
+        justify-content: center;
+    }
+    
+   .rightSection .vission h3 ,
+   .rightSection .mission h3 {
+    font-weight: 800;
+    font-size: 50px;
+}
+    .rightSection {
+        padding-right: 0;
+    }
+    .about_wrapper h3{
+        font-size:39px;
+    }
+}
+@media (max-width:575px){
+    .mission_vision_wrap {
+    
+        grid-template-columns: 1fr;
+    }
+
+    .leftSection img {
+        width: 58%;
+    }
+    .leftSection {
+    
+        justify-content: center;
+    }
+    .rightSection_wrap {
+        text-align: center;
+        padding: 3rem 1rem;
+    }
+    .rightSection {
+        padding-right: 0;
+    }
+
+    .leftSection img {
+        width: 71%;
+    }
+    .about_wrapper h3{
+        font-size:30px;
+    }
+    .rightSection_wrap {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* padding: 3rem 1rem; */
+    }
+   .rightSection .vission h3 ,
+   .rightSection .mission h3 {
+    font-weight: 800;
+    font-size: 50px;
+}
+}
+@media (max-width:390px){
+    .about_wrapper h3{
+        font-size:25px;
+    }
+
+}

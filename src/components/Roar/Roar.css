@@ -1,0 +1,137 @@
+.cardContainer{
+    height:auto;
+    margin:auto ;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+
+
+    
+}
+.slideContainer{
+    display: flex;
+    width: calc(513px * 4);
+    animation:scrollleft 20s linear infinite;
+
+}
+
+
+.scrollCard {
+    width: 450px !important;
+    border: 1px solid rgba(250,250,250,0.40) !important;
+    background: #2E2E2E !important;
+    border-radius: 13px !important;
+    padding: 22px 23px !important;
+}
+
+.large_container{
+    max-width: 2600px;
+    margin: 0 auto;
+}
+
+.aboutRoar h2 {
+    font-size: 80px;
+    padding-bottom: 2rem;
+}
+.roar_main {
+    border: none;
+    padding-bottom: 17rem;
+}
+
+@keyframes scrollleft {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(calc(-180px * 8));
+    }
+}
+.slideContainerright{
+    display: flex;
+    width: calc(-513px * 4);
+    animation:scrollright 20s linear infinite;
+
+}
+
+@keyframes scrollright {
+    0%{
+        transform: translateX(calc(-180px * 8));
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+@media (max-width: 1400px){
+    .CardInner table tbody tr td {
+        line-height: 27px;
+        padding: 0;
+    }
+    
+    .scrollCard {
+        max-width: 400px;
+    }
+    
+    .CardInner {
+        max-width: 100%;
+    }
+    .aboutRoar h2 {
+        font-size: 70px;
+        padding:20px 0;
+    }
+    
+   
+}
+@media (max-width: 992px){
+   
+    
+    .scrollCard {
+        max-width: 340px;
+    }
+    
+    .CardInner {
+        max-width: 100%;
+    }
+    .aboutRoar h2 {
+        font-size: 50px;
+        padding:20px 0;
+    }
+    
+   
+}
+
+
+@media (max-width: 768px){
+   
+    
+    .scrollCard {
+        max-width: 220px;
+        
+    }
+    
+    .CardInner {
+        max-width: 100%;
+    }
+    .CardInner table tbody tr td {
+       font-size: 14px;
+       line-height: 18px;
+    }
+    .aboutProfile h3 {
+        font-size: .9rem;
+        line-height: 1rem;
+    }
+    
+    .aboutProfile div p {
+        font-size: 12px;
+    }
+    .aboutRoar h2 {
+        font-size: 40px;
+        padding: 20px;
+        text-align: center;
+        line-height: 42px;
+    }
+    
+    .aboutRoar {
+        padding: 0;
+    }
+}

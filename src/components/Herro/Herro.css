@@ -1,0 +1,42 @@
+
+.navSection{
+    
+    height: 100vh;
+    
+
+}
+.innerNav{
+    
+    /* background-image: url('../../assets/img/about.png'); */
+    /* height: 100%; */
+    /* background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+
+}
+.navSection img{
+    height: 100%;
+    width: 100%;
+}
+
+@media (max-width: 1200px){
+    .innerHerro h3{
+
+        font-size: 45px;
+    }
+}
+@media (max-width: 992px){
+    .innerHerro h3{
+
+        font-size: 56px;
+        line-height: 80px;
+        padding: 0 1rem;
+    }
+}
+@media (max-width: 575px){
+    .innerHerro h3{
+
+        font-size: 30px;
+        line-height: 45px;
+    }
+}

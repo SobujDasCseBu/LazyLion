@@ -1,0 +1,253 @@
+.contact_us_main{
+    padding-top: 5rem;
+}
+
+.contact_container_wrapper{
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+.contact_wrapper {
+    padding-top: 3.5rem;
+ 
+    display: flex;
+    flex-direction: row-reverse;
+}
+.leftContent h1{
+    margin-bottom: 2.5rem;
+}
+.contact_roar_img.w-full {
+ 
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+.bottom_content {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 3rem;
+    padding-bottom: 4.75rem;}
+
+
+    .leftContent {
+    padding-left: 2rem;
+}
+
+
+.rightpart_wrap_top{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+    
+  justify-items: center;
+  align-items: center;
+}
+.social_icon_box{
+    width:50%;
+}
+.contact_us_main {
+    padding-top: 6rem;
+}
+.rightpart_wrap_top div {
+    margin: 0 0rem;
+    display: grid;
+    place-items: center;
+    box-shadow: 0px 0px 46px -7px #dbd7d7;
+}
+
+.rightpart_wrap_bottom {
+    width: 100%;
+    height: 165px;
+    box-shadow: 0px 0px 46px -7px #dbd7d7;
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem 0.5rem;
+}
+
+
+.contact_roar_img{
+    display: flex;
+    justify-content: center;
+}
+
+.contact_roar_img img{
+    max-width: 450px;
+}
+
+.rightpart_wrap_bottom .right_bottom {
+    margin: 0.5rem;
+    width: 100%;
+ box-shadow: 0px 0px 46px -7px #dbd7d7;
+    display: flex;
+    justify-content: center;
+}
+.rightpart_wrap_bottom{
+    box-shadow: none;
+}
+.rightpart_wrap_bottom {
+
+    margin: 0.5rem 0;
+}
+
+
+
+
+
+.rightpart_wrap_top .social_icon_box:last-child {
+    display: none;
+}
+
+.rightpart_wrap_top {
+ grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+    
+}
+
+
+
+.contact_title h1 {
+    margin-bottom: 3rem;
+}
+
+.rightpart_wrap_top div {
+    width: 207px;
+    height: 205px;
+    border-radius: 15px;
+    box-shadow: 0px 9px 63px 0px rgba(106, 106, 106, 0.22);
+}
+
+.rightpart_wrap_top .social_icon_box:last-child {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social_icon_box svg {
+    font-size: 5.5rem;
+}
+
+.social_icon_box h2 {
+    font-size: 54px;
+    margin-right: 2rem;
+}
+
+
+
+
+
+
+
+@media (max-width: 1200px){
+    .bottom_content {
+      
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+    .rightpart_wrap_top div {
+        width: 135px;
+        height: 135px;
+      
+    }
+}
+
+@media (max-width: 1024px){
+    .contact_wrapper{
+        
+        display: grid;
+       grid-template-columns: 1fr;
+       padding-top: 0;
+    }
+    .bottom_content {
+        padding-left: 0rem;
+        padding-right: 0rem;
+        max-width: 460px;
+        margin: 0 auto;
+    }
+    .rightpart_wrap_top {
+       grid-template-columns: repeat(4, 1fr);
+    }
+    .rightpart_wrap_top div {
+        border-radius: 12px;
+    }
+    .contact_roar_img {
+      
+        margin-top: 2rem;
+    }
+    .rightpart_wrap_top .social_icon_box:last-child {
+        width: 135px;
+        
+    }
+    .bottom_content{
+        display: block;
+    }
+}
+
+@media (max-width: 660px){
+    .rightpart_wrap_top div {
+        width: 134px;
+        height: 134px;
+       
+    }
+    .social_icon_box a svg {
+        width: 3.5rem;
+    }
+    .leftContent {
+        padding-left: 0;
+    }
+    .contact_roar_img img {
+        max-width: 100%;
+    }
+   
+    .rightpart_wrap_bottom h2{
+        font-size: 2rem;
+    }
+    .rightpart_wrap_bottom div img{
+        max-width: 2rem;
+        max-height: 2rem;
+    }
+    .rightpart_wrap_bottom .right_bottom{
+        margin: .5rem;
+    }
+    .rightpart_wrap_bottom .right_bottom {
+        margin: 0.5rem;
+        width: 100%;
+     box-shadow: 0px 0px 46px -7px #dbd7d7;
+        display: flex;
+        justify-content: center;
+    }
+  
+    .rightpart_wrap_bottom {
+        height: 96px;
+        margin: 0.5rem 0;
+    }
+    .leftContent h1 {
+        margin-bottom: 2.2rem;
+        font-size: 47px;
+    }
+    .rightpart_wrap_top div {
+        margin: 0 0rem;
+       
+    }
+    .rightpart_wrap_top {
+        grid-template-columns: repeat(2, 1fr);
+
+        grid-gap: 25px;
+      
+    }
+ 
+    .bottom_content{
+        width: initial;
+        padding-top: 1rem;
+        padding-bottom: 1.75rem;
+    }
+    
+
+}
+
+@media (max-width: 400px){
+    .rightpart_wrap_top {
+     grid-gap: 15px;
+    }
+}

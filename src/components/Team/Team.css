@@ -1,0 +1,384 @@
+
+.nineb{
+    background-position: right;
+    position: relative;
+    padding-bottom: 8rem;
+    background: black;
+    
+
+}
+.team {
+    background: black;
+}
+
+.nineb_img {
+    background: #972342;
+}
+
+.page_container{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.aboutteam {
+    display: grid;
+    grid-template-columns: 3fr 5fr;
+    padding: 6rem 0;
+}
+.teamRight h3{
+
+    font-size: 57px;
+    font-weight: 700;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #FFECB3;
+    padding-left: 6rem;
+
+}
+.teamLeft {
+    text-align: center;
+}
+
+.team_wrap {
+    padding-top: 4rem;
+    position: relative;
+}
+
+.ninebIcon ul{
+    padding-right: 5rem;
+}
+
+.ninebIcon ul li a svg{
+ font-size: 2rem;
+}
+
+.ninebTitle h2{
+    line-height:180px;
+}
+
+.ninebTitle p{
+    font-size: 1.2rem;
+    padding-left: 8px;
+}
+
+.shortProfile div img{
+    cursor: pointer;
+}
+
+.team_items_wrap {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+}
+
+.ninab_main {
+    max-width: 95%;
+    border-radius: 40px;
+    margin: 0 auto;
+
+}
+
+.nineb:after {
+    position: absolute;
+    width: 95%;
+    content: "";
+    height: 1px;
+    background: black;
+    bottom: -56px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.ninebIcon {
+    position: absolute;
+    right: 0;
+    top: 46px;
+}
+
+.shortProfile  img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+
+}
+.shortProfile .active img{
+    border:2px solid #f8c406;
+    width: 100px;
+    height: 100px;
+
+}
+.ninebLeft{
+    padding-left: 3rem;
+
+}
+.ninebLeft img{
+   
+    /* height: 550px;
+    width: 550px; */
+
+}
+.ninebRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 5rem;
+}
+
+.ninebIcon ul {
+    display: flex;
+}
+
+
+.teamBg {
+    position: absolute;
+    right: 36px;
+    top: 26px;
+    display: flex;
+    justify-content: end;
+}
+
+.teamBg img {
+    width: 50%;
+}
+
+.shortProfile .shortprofile_WRAP div {
+    /* width: 100px;
+    height: 100px; */
+    display: flex;
+    align-items: center;
+}
+
+.shortProfile .shortprofile_WRAP {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: auto;
+}
+
+
+@media (max-width: 1400px){
+    .teamRight h3 {
+        font-size: 50px;
+       
+    }
+    .ninebRight {
+     
+        padding-left: 0;
+    }
+    .teamBg {
+    
+        right: 30px;
+    
+    }
+}
+
+@media (max-width: 1200px){
+    .nineb {
+   
+        padding-bottom: 3rem;
+    }
+    .teamRight h3 {
+        font-size: 40px;
+        padding-bottom: 1rem;
+       
+    }
+    /* .ninebLeft img {
+        height: 371px;
+        width: 326px;
+        
+    } */
+    .shortProfile img {
+        width: 80px;
+        height: 80px;
+       
+    }
+    .shortProfile .active img {
+        border: 2px solid #f8c406;
+       
+    }
+    .ninebTitle h2 {
+        line-height: 130px;
+    }
+}
+
+
+
+@media (max-width: 1024px){
+    .mission_vision_wrap {
+
+        display: flex;
+        flex-direction: column;
+    }
+    .ninebTitle p {
+      
+        padding-top: 6px;
+    }
+    .shortProfile {
+        margin: 0;
+        margin-top: 7rem;
+        padding-bottom: 3.5rem;
+    }
+    .ninebRight{
+        position: relative;
+    }
+    .ninebIcon {
+        position: absolute;
+        right: initial;
+        top: 133px;
+        left: 0;
+    }
+    .teamLeft h2 {
+        font-size: 65px;
+    }
+    .teamRight h3 {
+        font-size: 65px;
+        line-height: 65px;
+       
+    }
+    .teamBg {
+    
+        right: 20px;
+    
+    }
+    .aboutteam {
+        display: flex;
+        flex-direction: column;
+        padding: 3rem 0;
+    }
+    .teamRight h3 {
+        font-size: 36px;
+        line-height: 41px;
+        text-align: center;
+        padding-left: 0rem;
+        padding: 0 6rem;
+    }
+    .teamRight h3 br {
+        display: none;
+    }
+    
+    /* .ninebLeft img {
+        height: 250px;
+        width: 250px;
+        
+    } */
+   
+    .shortProfile .active img {
+        width: 100px;
+        height: 100px;
+    }
+    .ninebTitle h2 {
+        line-height: 100px;
+    }
+    .ninebIcon ul {
+        padding-right: 3rem;
+    }
+    .team_wrap {
+        padding-top: 2rem;
+    }
+    /* .ninebLeft {
+        padding-bottom: 2rem;
+        padding-left: 1rem;
+    } */
+    .team_wrap {
+        padding-top: 3rem;
+    }
+   
+    
+}
+
+@media (max-width: 768px){
+    .teamBg {
+    
+        right: 10px;
+    
+    }
+    .teamRight h3 {
+      
+        padding: 0rem;
+    }
+/* .ninebLeft img {
+    height: 169px;
+    width: 169px;
+} */
+.ninebIcon ul li a svg {
+    font-size: 1.3rem;
+}
+.ninebTitle h2 {
+    font-size: 93px;
+    line-height: 90px;
+}
+.team_items_wrap{
+    position: relative;
+}
+
+.ninebTitle p {
+   
+    margin-top: 0.3rem;
+}
+
+.ninebRight {
+    position: initial;
+}
+.ninebIcon ul li a svg {
+    font-size: 1.3rem;
+}
+
+.team_items_wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+.team_wrap {
+    padding-top: 2rem;
+}
+.ninebTitle {
+    position: absolute;
+top: 10px;
+left: 31px;
+}
+.ninebIcon ul {
+    padding-right: 1.5rem;
+    padding-top: 3rem;
+}
+
+.shortProfile {
+    position: absolute;
+    bottom: -171px;
+    left: 0;
+}
+
+
+    .team {
+        padding-bottom: 8rem;
+    }
+
+.nineb:after{
+    display: none;
+}
+.ninebLeft{
+    padding-left: 0;
+    margin-top: 12rem;
+}
+
+.ninebIcon {
+    position: absolute;
+   
+    top: 93px;
+    right: initial;
+    left: 30px;
+} 
+
+
+}
+
+
+@media (max-width: 575px){
+    .shortProfile img {
+        width: 56px;
+        height: 56px;
+    }
+    
+    .shortProfile .active img {
+        width: 75px;
+        height: 75px;
+    }
+  
+}

@@ -1,0 +1,139 @@
+.viewjourney {
+    position: relative;
+}
+
+.image_Icon {
+    position: absolute;
+    top: -8px;
+    border: 1px solid #ff00007d;
+}
+
+.viewjourney button {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.bullet {
+    position: absolute;
+    right: 9px;
+}
+
+.timeline_main_wrap {
+    padding-left: 30rem;
+}
+
+.timeline {
+    margin-left: 3rem;
+}
+
+.timeline_main_wrap h1 {
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+}
+
+@media (max-width: 1020px){
+    .tiger_images img {
+        width: 351px;
+        height: 450px;
+    }
+
+    .timeline_main_wrap {
+        padding-left: 21rem;
+    }
+}
+@media (max-width: 768px){
+    .tiger_images img {
+        width: 351px;
+        height: 450px;
+    }
+
+    .timeline_main_wrap {
+        padding-left: 21rem;
+    }
+    .tiger_images img {
+        width: 241px;
+        height: 322px;
+    }
+    .timeline_main_wrap {
+        padding-left: 15rem;
+    }
+ 
+    .timeline_main_wrap h1 {
+        padding-top: 5rem;
+        padding-bottom: 3rem;
+        font-size: 53px;
+    }
+    .timeline_main_wrap .bottom {
+        margin-top: 1rem;
+    }
+    
+    .timeline_main_wrap .bottom h3 {
+        margin-top: .5rem;
+        margin-bottom: .5rem;
+    }
+}
+
+
+@media (max-width: 640px){
+    .tiger_images img {
+        width: 351px;
+        height: 450px;
+    }
+
+    .timeline_main_wrap {
+        padding-left: 21rem;
+    }
+    .tiger_images img {
+        width: 321px;
+        height: 393px;
+        margin-left: -1rem;
+        border-bottom-left-radius: 39px;
+    }
+    .timeline_main_wrap {
+        padding-left: 1rem;
+        position: relative;
+    }
+    .timeline_main_wrap h1 {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+        font-size: 49px;
+    }
+    .viewjourney button {
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .timeline {
+        margin-left: -1rem;
+        margin-top: -2rem;
+    }
+    .bullet {
+        position: absolute;
+        right: 0;
+        left: 0;
+        bottom: 0;
+    }
+    .timeline_main_wrap .bottom {
+        margin-top: 1rem;
+        position: absolute;
+        top: 115px;
+        left: 73px;
+    }
+    .viewjourney button {
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 156px;
+    }
+    .image_Icon {
+        position: absolute;
+        top: -10px;
+        border: 1px solid #ff00007d;
+        left: -4px;
+    }
+}
+
+

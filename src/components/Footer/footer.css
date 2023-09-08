@@ -1,0 +1,10 @@
+.footer_wrap div {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #a8a8a8;
+}
+
+.footer_wrap {
+    padding: 1.5rem 0;
+}
